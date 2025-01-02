@@ -3,4 +3,3 @@ node_modules/
 
 # Other common ignores (optional)
 .DS_Store
-.env
