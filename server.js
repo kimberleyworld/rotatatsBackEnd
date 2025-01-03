@@ -37,7 +37,7 @@ app.use(express.static(frontendPath));
 
 // Route for the root URL to serve about.html
 app.get("/", (req, res) => {
-  res.sendFile(path.join(frontendPath, "about.html"));
+  res.sendFile(path.join(frontendPath, "index.html"));
 });
 
 // Nodemailer transporter configuration
